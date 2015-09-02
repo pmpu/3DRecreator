@@ -1,9 +1,7 @@
 # 3DRecreator
 
-<hr>
 
-<h3> С чем нам предстоит работать: </h3>
-
+С чем нам предстоит работать:
 <a align="left" href="https://github.com/openMVG/openMVG/"> OpenMVG </a>
 <br />
 <a align="left" href="https://github.com/PixarAnimationStudios/OpenSubdiv"> OpenSubdiv </a>
