@@ -50,7 +50,6 @@ Unity3D
 <br />
 Substance Designer
 <br />
-<br />
 Substance Painter
 <br />
 
