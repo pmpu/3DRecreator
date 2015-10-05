@@ -1,0 +1,25 @@
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon(TM) R5 Graphics (ID=0x9851)
+    Vendor:   ATI
+    VRAM:     3044 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Марина\Documents\3drec\3drec_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Марина\Documents\3drec\3drec_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Марина\Documents\3drec\3drec_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Марина\Documents\3drec\3drec_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Марина\Documents\3drec\3drec_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Марина\Documents\3drec\3drec_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Марина\Documents\3drec\3drec_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Марина\Documents\3drec\3drec_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Марина\Documents\3drec\3drec_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.113 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Марина\Documents\3drec\3drec_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 111c -> priority: 1 
