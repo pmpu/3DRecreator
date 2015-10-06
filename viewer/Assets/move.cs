@@ -3,7 +3,7 @@ using System.Collections;
 
 public class move : MonoBehaviour {
     public float rotatesens = 2.0f;
-    public Vector3 enl = new Vector3(0.01f, 0.01f, 0.01f);
+    public Vector3 enl = new Vector3(0.03f, 0.03f, 0.03f);
     // Use this for initialization
     void Start () {
 	
