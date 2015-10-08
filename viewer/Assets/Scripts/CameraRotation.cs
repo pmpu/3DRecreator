@@ -3,7 +3,6 @@ using System.Collections;
 
 public class CameraRotation : MonoBehaviour {
     public float rotatesens = 2.0f;
-    float Range = 60.0f;
     
     // Use this for initialization
     void Start () {
@@ -22,7 +21,7 @@ public class CameraRotation : MonoBehaviour {
         }
         float roty = Input.GetAxis("Mouse X") * rotatesens;
         float rotx  = -Input.GetAxis("Mouse Y") * rotatesens;
-        if (Input.GetKey("mouse 1")) Camera.main.transform.Rotate(rotx, roty, 0);
+        if (Input.GetKey("mouse 1")) Camera.main.transform.Rotate(rotx * Camera.main.fieldOfView / 50, roty * Camera.main.fieldOfView / 50, 0);
         if (Input.GetKey("[5]")) Camera.main.transform.localRotation=Quaternion.Euler(0f,0f,0f);
 
     }
