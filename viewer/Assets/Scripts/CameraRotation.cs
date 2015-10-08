@@ -20,8 +20,10 @@ public class CameraRotation : MonoBehaviour {
         {
             Camera.main.fieldOfView += 1.0f;
         }
-        float rotx = Input.GetAxis("Mouse X") * rotatesens;
-        float roty  = -Input.GetAxis("Mouse Y") * rotatesens;
-        if (Input.GetKey("mouse 1")) Camera.main.transform.Rotate(roty, rotx, 0);
+        float roty = Input.GetAxis("Mouse X") * rotatesens;
+        float rotx  = -Input.GetAxis("Mouse Y") * rotatesens;
+        if (Input.GetKey("mouse 1")) Camera.main.transform.Rotate(rotx, roty, 0);
+        if (Input.GetKey("[5]")) Camera.main.transform.localRotation=Quaternion.Euler(0f,0f,0f);
+
     }
 }
